@@ -10,7 +10,15 @@ Thumbs.db
 /public
 
 # Logs
-/*.log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Misc.
+# Config files
 .env
+
+# Cypress
+test/cypress/screenshots
+test/cypress/videos
